@@ -48,7 +48,7 @@ public class RegisterController {
 			userService.saveUser(user);
 //			model.addAttribute("message", messageSource.getMessage("user.register.success.email", null, locale));
 //			model.addAttribute("user", new User());
-//			returnPage = "index";
+			returnPage = "index";
 		}
 		
 		return returnPage;
